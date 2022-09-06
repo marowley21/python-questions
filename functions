@@ -1,0 +1,37 @@
+def hello_name(user_name):    #1
+    USER_NAME = input("what's your name?")
+    if USER_NAME == input(user_name):
+        return("hello" + USER_NAME + "!")
+
+# next question               #2
+minimum = int(input("1:"))
+maximum = int(input("100"))
+for number in range(1, 100+1):
+    if(number % 2 != 0):
+        print("{0}".format(number))
+
+#next question                #3
+def max_num_in_list(a_list):
+    a_list = 100
+    max_num_in_list = a_list
+    mini_num_in_list = int(input("1:"))
+    return a_list
+
+#next question                #4
+def is_leap_year(a_year):
+    year = int(input("365 days"))
+    return(year % 4 == 0 and year % 400 == 0)
+    "is a leap year"
+    print(True)
+    "not a leap year"
+    print(False)
+
+#next question                #5
+def is_consecutive(a_list):
+    a_list = [1,2,3,4,5,6,7,8,9,10]
+    is_consecutive = a_list
+    not_consecutive = [2,5,7,3,6,9]
+    "is consecutive"
+    print(True)
+    "not consecutive"
+    print(False)
